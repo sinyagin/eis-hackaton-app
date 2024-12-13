@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const App = () => {
   const [input, setInput] = useState('');
-  const [prompt, setPrompt] = useState('');
+  const [prompt, setPrompt] = useState('Tell me about CSAA optimization project');
   const [response, setResponse] = useState('');
 
   const invokeLambda = async () => {
